@@ -3,6 +3,18 @@
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<<<<<<< HEAD
+A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics. If you like the theme, give it a star!
+
+## Table Of Contents
+- [al-folio](#al-folio)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
+      - [Local setup using Docker](#local-setup-using-docker)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+=======
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
@@ -186,6 +198,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
       - [Deployment](#deployment)
       - [Upgrading from a previous version](#upgrading-from-a-previous-version)
     - [FAQ](#faq)
+>>>>>>> bf589ec (Initial commit)
   - [Features](#features)
     - [CV](#cv)
     - [Publications](#publications)
@@ -200,9 +213,12 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
+<<<<<<< HEAD
+=======
   - [Contributing](#contributing)
     - [Maintainers](#maintainers)
     - [All Contributors](#all-contributors)
+>>>>>>> bf589ec (Initial commit)
   - [License](#license)
 
 ## Getting started
@@ -220,6 +236,19 @@ The recommended approach for using **al-folio** is to first create your own site
 4. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
 5. Wait until the GitHub actions finish, then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's demo website.
 
+<<<<<<< HEAD
+After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following GitHub CLI:
+
+```bash
+$ gh repo clone <your-username>/<your-username>.github.io
+```
+
+Work with GitHub CLI [Read More](https://cli.github.com/). 
+
+---
+
+#### Local setup using Docker
+=======
 After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
@@ -229,6 +258,7 @@ $ git clone git@github.com:<your-username>/<your-repo-name>.git
 ---
 
 #### Local setup using Docker (Recommended)
+>>>>>>> bf589ec (Initial commit)
 
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
@@ -238,10 +268,18 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
+<<<<<<< HEAD
+$ cd <the downloaded repository>/docker-compose.yml
+=======
+>>>>>>> bf589ec (Initial commit)
 $ docker compose pull
 $ docker compose up
 ```
 
+<<<<<<< HEAD
+To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
+> Regarding the port number, you can check and edit `docker-compose.yml` file.
+=======
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8888`. You should see a copy of the theme's demo website.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
@@ -283,12 +321,16 @@ $ bundle exec jekyll serve --lsi
 ```
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's demo website. Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
+>>>>>>> bf589ec (Initial commit)
 
 ---
 
 #### Deployment
 
+<<<<<<< HEAD
+=======
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
+>>>>>>> bf589ec (Initial commit)
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
@@ -322,6 +364,8 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 
 </details>
 
+<<<<<<< HEAD
+=======
 <details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
@@ -379,6 +423,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 </details>
 
+>>>>>>> bf589ec (Initial commit)
 ---
 
 #### Upgrading from a previous version
@@ -430,60 +475,21 @@ If rebasing is too complicated, we recommend re-installing the new version of th
 
 ---
 
+<<<<<<< HEAD
+=======
 ### FAQ
 
-Here are some frequently asked questions.
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
-1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
-   Isn't the website supposed to correctly deploy automatically? <br>
-   **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
-   Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
-   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
-   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+1. **Q:** How to add external links to the navbar?<br>
+   **A:** Add a few lines of code in `_includes/header.html`. (Relevant issue: [579](https://github.com/alshedivat/al-folio/discussions/579#discussioncomment-2302097).)
 
-2. **Q:** I am using a custom domain (e.g., `foo.com`).
-   My custom domain becomes blank in the repository settings after each deployment.
-   How do I fix that? <br>
-   **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
-   The file should contain your custom domain name.
-   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+2. **Q:** I would like to redirect the cv page to a pdf of my cv instead of displaying details on the page itself.<br>
+   **A:** You can use the `redirect_to` attribute.
+   (Relevant issue: [806](https://github.com/alshedivat/al-folio/discussions/806#discussioncomment-3503299).)
 
-3. **Q:** My webpage works locally.
-    But after deploying, it fails to build and throws `Unknown tag 'toc'`.
-    How do I fix that? <br>
-   **A:** Make sure you followed through the [deployment instructions](#deployment) in the previous section.
-   You should have set the deployment branch to `gh-pages`.
-   (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
 
-4. **Q:** My webpage works locally.
-    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
-    How do I fix that? <br>
-   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-   Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
-   If you are deploying a personal or organization website, leave `baseurl` blank.
-   If you are deploying a project page, set `baseurl: /<your-project-name>/`.
-   If all previous steps were done correctly, all is missing is
-   [for your browser to fetch again the site stylesheet](https://github.com/alshedivat/al-folio/issues/1398#issuecomment-1609518404).
-
-5. **Q:** Atom feed doesn't work. Why?
-   <br>
-   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
-  Make sure to fill them in an appropriate way and try again.
-
-6. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
-   **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
-   related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
-   posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
-   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even
-   [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
-   made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
-   `related_posts: false` to the front matter of the page you don't want to display related posts on.
-
-7. **Q:** When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?     <br>
-   **A:** Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
-
+>>>>>>> bf589ec (Initial commit)
 ## Features
 
 ### CV
@@ -682,6 +688,11 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
+<<<<<<< HEAD
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
+=======
 #### Related posts
 
 By default, there will be a related posts section on the bottom of the blog posts.
@@ -735,3 +746,4 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+>>>>>>> bf589ec (Initial commit)
