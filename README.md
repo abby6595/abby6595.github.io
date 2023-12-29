@@ -3,10 +3,11 @@
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<<<<<<< HEAD
-A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics. If you like the theme, give it a star!
+A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
+If you like the theme, give it a star!
 
 ## Table Of Contents
+
 - [al-folio](#al-folio)
   - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
@@ -14,191 +15,7 @@ A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academ
       - [Local setup using Docker](#local-setup-using-docker)
       - [Deployment](#deployment)
       - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-=======
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Maintainers][maintainers]](#maintainers)
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
-
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-
-A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star!
-
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
-
-## User community
-
-The vibrant community of **al-folio** users is growing!
-Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
-Check out the community webpages below.
-Feel free to add your own page(s) by sending a PR.
-
-<table>
-<tr>
-<td>Academics</td>
-<td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>
-<a href="https://maruan.alshedivat.com" target="_blank">★</a>
-<a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
-<a href="https://maithraraghu.com" target="_blank">★</a>
-<a href="https://platanios.org" target="_blank">★</a>
-<a href="https://otiliastr.github.io" target="_blank">★</a>
-<a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
-<a href="https://jessachandler.com/" target="_blank">★</a>
-<a href="https://mayankm96.github.io/" target="_blank">★</a>
-<a href="https://markdean.info/" target="_blank">★</a>
-<a href="https://kakodkar.github.io/" target="_blank">★</a>
-<a href="https://sahirbhatnagar.com/" target="_blank">★</a>
-<a href="https://spd.gr/" target="_blank">★</a>
-<a href="https://jay-sarkar.github.io/" target="_blank">★</a>
-<a href="https://aborowska.github.io/" target="_blank">★</a>
-<a href="https://aditisgh.github.io/" target="_blank">★</a>
-<a href="https://alexhaydock.co.uk/" target="_blank">★</a>
-<a href="https://alixkeener.net/" target="_blank">★</a>
-<a href="https://andreea7b.github.io/" target="_blank">★</a>
-<a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
-<a href="https://sheelabhadra.github.io/" target="_blank">★</a>
-<a href="https://giograno.me/" target="_blank">★</a>
-<a href="https://immsrini.github.io/" target="_blank">★</a>
-<a href="https://apooladian.github.io/" target="_blank">★</a>
-<a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
-<a href="https://liamcli.com/" target="_blank">★</a>
-<a href="https://yoonholee.com/" target="_blank">★</a>
-<a href="https://zrqiao.github.io/" target="_blank">★</a>
-<a href="https://abstractgeek.github.io/" target="_blank">★</a>
-<a href="https://www.compphys.de/" target="_blank">★</a>
-<a href="https://julianstreyczek.github.io" target="_blank">★</a>
-<a href="https://sdaza.com" target="_blank">★</a>
-<a href="https://niweera.gq" target="_blank">★</a>
-<a href="https://www.alihkw.com" target="_blank">★</a>
-<a href="https://amirpourmand.ir" target="_blank">★</a>
-<a href="https://scottleechua.github.io" target="_blank">★</a>
-<a href="https://sk1y101.github.io" target="_blank">★</a>
-<a href="https://yyang768osu.github.io" target="_blank">★</a>
-<a href="https://veedata.github.io" target="_blank">★</a>
-<a href="https://K-Wu.github.io" target="_blank">★</a>
-<a href="https://amalawilson.com" target="_blank">★</a>
-<a href="https://tirtharajdash.github.io" target="_blank">★</a>
-<a href="https://carolinacarreira.github.io" target="_blank">★</a>
-<a href="https://manandey.github.io" target="_blank">★</a>
-<a href="https://johanneshoerner.github.io" target="_blank">★</a>
-<a href="https://ioannismavromatis.com" target="_blank">★</a>
-<a href="https://taidnguyen.github.io" target="_blank">★</a>
-<a href="https://lbugnon.github.io" target="_blank">★</a>
-<a href="https://joahannes.github.io" target="_blank">★</a>
-<a href="https://dominikstrb.github.io" target="_blank">★</a>
-<a href="https://tylerbarna.com" target="_blank">★</a>
-<a href="https://daviddmc.github.io/" target="_blank">★</a>
-<a href="https://andreaskuster.ch/" target="_blank">★</a>
-<a href="https://ellisbrown.github.io/" target="_blank">★</a>
-<a href="https://noman-bashir.github.io/" target="_blank">★</a>
-<a href="https://djherron.github.io/" target="_blank">★</a>
-<a href="https://rodosingh.github.io/" target="_blank">★</a>
-<a href="https://vdivakar.github.io/" target="_blank">★</a>
-<a href="https://george-gca.github.io/" target="_blank">★</a>
-<a href="https://bashirkazimi.github.io/" target="_blank">★</a>
-<a href="https://dohaison.github.io/" target="_blank">★</a>
-<a href="https://raphaaal.github.io/" target="_blank">★</a>
-<a href="https://varuniyer.info/" target="_blank">★</a>
-<a href="https://yukimasano.github.io/" target="_blank">★</a>
-<a href="https://hashe037.github.io/" target="_blank">★</a>
-<a href="https://wang-boyu.github.io/" target="_blank">★</a>
-<a href="https://qingqingchen.info" target="_blank">★</a>
-<a href="https://bajinsheng.github.io/" target="_blank">★</a>
-<a href="https://www.silviofanzon.com/" target="_blank">★</a>
-<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
-<a href="https://samadamday.com/" target="_blank">★</a>
-<a href="https://fanpu.io/" target="_blank">★</a>
-<a href="https://abigalekim.github.io/" target="_blank">★</a>
-<a href="https://lucasresck.github.io/" target="_blank">★</a>
-<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
-<a href="https://anmspro.github.io/" target="_blank">★</a>
-<a href="https://berlyne.net/" target="_blank">★</a>
-<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
-<a href="https://www.escontrela.me/" target="_blank">★</a>
-<a href="https://raffaem.github.io/" target="_blank">★</a>
-<a href="https://cbueth.de/" target="_blank">★</a>
-<a href="https://kyleaoman.github.io/" target="_blank">★</a>
-<a href="https://decwest.github.io/" target="_blank">★</a>
-<a href="https://www.jedburkat.com" target="_blank">★</a>
-<a href="https://hrzhang.me" target="_blank">★</a>
-<a href="https://kudhru.github.io/" target="_blank">★</a>
-<a href="https://mbarbetti.github.io/" target="_blank">★</a>
-<a href="https://www.zhivotenko.com/" target="_blank">★</a>
-<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
-<a href="https://aadityaura.github.io/" target="_blank">★</a>
-<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
-<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
-<a href="https://astanziola.github.io" target="_blank">★</a>
-<a href="https://tinkerer.in" target="_blank">★</a>
-</td>
-</tr>
-<tr>
-<td>Labs</td>
-<td>
-<a href="https://www.haylab.caltech.edu/" target="_blank">★</a>
-<a href="https://sjkimlab.github.io/" target="_blank">★</a>
-<a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
-<a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
-<a href="https://programming-group.com/" target="_blank">★</a>
-<a href="https://sailing-lab.github.io/" target="_blank">★</a>
-<a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
-</td>
-</tr>
-<tr>
-<td>Courses</td>
-<td>
-CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
-CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>, <a href="https://cmudeeprl.github.io/403_website/" target="_blank">S-21</a>, <a href="https://cmudeeprl.github.io/703website_f21/" target="_blank">F-21</a>, <a href="https://cmudeeprl.github.io/403website_s22/" target="_blank">S-22</a>) <br>
-CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2022/" target="_blank">F-22</a>) <br>
-CMU AMMML (<a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/" target="_blank">S-22</a>, <a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU ASI (<a href="https://cmu-multicomp-lab.github.io/asi-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
-</td>
-</tr>
-<tr>
-<td>Conferences & workshops</td>
-<td>
-ICLR Blog Post Track (<a href="https://iclr-blogposts.github.io/2023/" target="_blank">2023</a>, <a href="https://iclr-blogposts.github.io/2024/about" target="_blank">2024</a>) <br>
-ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
-HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
-ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>, <a href="https://i-cant-believe-its-not-better.github.io/neurips2021/" target="_blank">2021</a>) <br>
-Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
-Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
-Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>) <br>
-Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
-Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
-Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>)
-</td>
-</tr>
-</table>
-
-## Lighthouse PageSpeed Insights
-
-[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
-
-## Table Of Contents
-
-- [al-folio](#al-folio)
-  - [User community](#user-community)
-  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  - [Table Of Contents](#table-of-contents)
-  - [Getting started](#getting-started)
-    - [Installation](#installation)
-      - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
-      - [Local Setup (Legacy)](#local-setup-legacy)
-      - [Deployment](#deployment)
-      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
     - [FAQ](#faq)
->>>>>>> bf589ec (Initial commit)
   - [Features](#features)
     - [CV](#cv)
     - [Publications](#publications)
@@ -213,12 +30,6 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
-<<<<<<< HEAD
-=======
-  - [Contributing](#contributing)
-    - [Maintainers](#maintainers)
-    - [All Contributors](#all-contributors)
->>>>>>> bf589ec (Initial commit)
   - [License](#license)
 
 ## Getting started
@@ -233,22 +44,9 @@ The recommended approach for using **al-folio** is to first create your own site
 1. Create a new repository using this template. For this, click on `Use this template -> Create a new repository` above the file list. If you plan to upload your site to `<your-github-username>.github.io`, note that the name of your repository MUST BE `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
 2. In this new repository, go to `Settings -> Actions -> General -> Workflow permissions` and give `Read and write permissions` to GitHub Actions.
 3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty**.
-4. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
+4. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master) and `/root`.
 5. Wait until the GitHub actions finish, then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's demo website.
 
-<<<<<<< HEAD
-After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following GitHub CLI:
-
-```bash
-$ gh repo clone <your-username>/<your-username>.github.io
-```
-
-Work with GitHub CLI [Read More](https://cli.github.com/). 
-
----
-
-#### Local setup using Docker
-=======
 After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
@@ -257,8 +55,7 @@ $ git clone git@github.com:<your-username>/<your-repo-name>.git
 
 ---
 
-#### Local setup using Docker (Recommended)
->>>>>>> bf589ec (Initial commit)
+#### Local setup using Docker
 
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
@@ -268,18 +65,10 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
-<<<<<<< HEAD
-$ cd <the downloaded repository>/docker-compose.yml
-=======
->>>>>>> bf589ec (Initial commit)
 $ docker compose pull
 $ docker compose up
 ```
 
-<<<<<<< HEAD
-To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
-> Regarding the port number, you can check and edit `docker-compose.yml` file.
-=======
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8888`. You should see a copy of the theme's demo website.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
@@ -307,30 +96,9 @@ You can also change the docker image tag to slim! It is a slimmed docker image w
 
 ---
 
-#### Local Setup (Legacy)
-
-For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
-
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), and also [Python](https://www.python.org/) and [pip](https://pypi.org/project/pip/) (*hint: for ease of managing python packages, consider using a virtual environment, like [venv](https://docs.python.org/pt-br/3/library/venv.html) or [conda](https://docs.conda.io/en/latest/). If you will use only `jupyter`, you can use [pipx](https://pypa.github.io/pipx/)*).
-
-```bash
-$ bundle install
-# assuming pip is your Python package manager
-$ pip install jupyter
-$ bundle exec jekyll serve --lsi
-```
-
-To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's demo website. Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
->>>>>>> bf589ec (Initial commit)
-
----
-
 #### Deployment
 
-<<<<<<< HEAD
-=======
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
->>>>>>> bf589ec (Initial commit)
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
@@ -358,72 +126,6 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 
 If you keep your site on another branch, open `.github/workflows/deploy.yml` **on the branch you keep your website on** and change on->push->branches and on->pull\_request->branches to the branch you keep your website on. This will trigger the action on pulls/pushes on that branch. The action will then deploy the website on the branch it was triggered from.
 
-<details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
-
-If you need to manually re-deploy your website to GitHub pages, go to Actions, click "Deploy" in the left sidebar, then "Run workflow."
-
-</details>
-
-<<<<<<< HEAD
-=======
-<details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
-
-If you decide to not use GitHub Pages and host your page elsewhere, simply run:
-
-```bash
-$ bundle exec jekyll build --lsi
-```
-
-which will (re-)generate the static webpage in the `_site/` folder.
-Then simply copy the contents of the `_site/` directory to your hosting server.
-
-If you also want to remove unused css classes from your file, run:
-
-```bash
-$ purgecss -c purgecss.config.js
-```
-
-which will replace the css files in the `_site/assets/css/` folder with the purged css files.
-
-**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploying directly to `your-domain.com`, leave `baseurl` blank.
-
-</details>
-
-<details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
-
-**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
-
-Let's assume that your website's publishing source is a `publishing-source` subdirectory of a git-versioned repository cloned under `$HOME/repo/`.
-For a user site this could well be something like `$HOME/<user>.github.io`.
-
-Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
-
-Then from the website sources dir (commonly your al-folio fork's clone):
-
-```bash
-$ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
-```
-
-This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
-
-**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
-
-The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
-
-> Destination folders are cleaned on site builds
->
-> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
->
-> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
-
-If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
-In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behavior, add `README.md` under `exclude` in `_config.yml`.
-
-**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
-
-</details>
-
->>>>>>> bf589ec (Initial commit)
 ---
 
 #### Upgrading from a previous version
@@ -475,8 +177,6 @@ If rebasing is too complicated, we recommend re-installing the new version of th
 
 ---
 
-<<<<<<< HEAD
-=======
 ### FAQ
 
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
@@ -488,8 +188,6 @@ If you have a different question, please ask using [Discussions](https://github.
    **A:** You can use the `redirect_to` attribute.
    (Relevant issue: [806](https://github.com/alshedivat/al-folio/discussions/806#discussioncomment-3503299).)
 
-
->>>>>>> bf589ec (Initial commit)
 ## Features
 
 ### CV
@@ -688,11 +386,6 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
-<<<<<<< HEAD
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
-=======
 #### Related posts
 
 By default, there will be a related posts section on the bottom of the blog posts.
@@ -700,50 +393,9 @@ These are generated by selecting the `max_related` most recent posts that share 
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
 If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
 
-## Contributing
-
-Contributions to al-folio are very welcome!
-Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
-
-If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
-For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
-
-### Maintainers
-
-Our most active contributors are welcome to join the maintainers team.
-If you are interested, please reach out!
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://rohandebsarkar.github.io"><img src="https://avatars.githubusercontent.com/u/50144004?v=4" width="100px;" alt=""/><br /><sub><b>Rohan Deb Sarkar</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://amirpourmand.ir"><img src="https://avatars.githubusercontent.com/u/32064808?v=4" width="100px;" alt=""/><br /><sub><b>Amir Pourmand</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://george-gca.github.io/"><img src="https://avatars.githubusercontent.com/u/31376482?v=4" width="100px;" alt=""/><br /><sub><b>George</b></sub></a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-### All Contributors
-
-<a href="https://github.com/alshedivat/al-folio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=36" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
->>>>>>> bf589ec (Initial commit)
